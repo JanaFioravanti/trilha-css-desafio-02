@@ -10,13 +10,6 @@ body {
     margin: auto;
     background: #F9F9F9;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 28px 0 0 0;
-}
 /*Header*/
 
 header {
@@ -60,9 +53,21 @@ input:focus {
     height: 34px;
     border-radius: 50%;
 }
+
+header img {
+    cursor: pointer;
+}
 /*Header*/
 
 /*Main*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 28px 0 0 0;
+}
+
 main {
     width: 952px;
     display: flex;
